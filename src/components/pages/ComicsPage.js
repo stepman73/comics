@@ -1,13 +1,14 @@
+import React from "react";
 import ComicsList from "../comicsList/ComicsList";
-import AppBanner from '../appBanner/AppBanner';
+import AppBanner from "../appBanner/AppBanner";
 
-const ComicsPage = () => {
-    return (
-        <>
-            <AppBanner/>
-            <ComicsList/>
-        </>
-    )
+function ComicsPage() {
+  return (
+    <>
+      <AppBanner />
+      <ComicsList />
+    </>
+  );
 }
 
 export default ComicsPage;

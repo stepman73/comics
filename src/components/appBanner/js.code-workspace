@@ -1,0 +1,30 @@
+{
+	"folders": [
+		{
+			"name": "js",
+			"path": "../../../.."
+		},
+		{
+			"name": "food",
+			"path": "../../../../../MAMP/htdocs/food"
+		},
+		{
+			"path": "../../../../../test"
+		},
+		{
+			"path": "../../../../employees_template"
+		},
+		{
+			"path": "../../../../marvel_starter"
+		},
+		{
+			"path": "../../../../movie_db"
+		},
+		{
+			"path": "../../.."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "js"
+	}
+}

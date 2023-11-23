@@ -1,7 +1,7 @@
 export default function logger() {
-    console.log('Hello world!');
+  console.log("Hello world!");
 }
 
 export function secondLog() {
-    console.log('2nd');
+  console.log("2nd");
 }
