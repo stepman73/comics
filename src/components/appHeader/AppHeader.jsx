@@ -11,19 +11,19 @@ import React from "react";
 function AppHeader() {
   const count = useSelector((store) => store.count);
   const dispatch = useDispatch();
-  console.log(count);
+  // console.log(count);
 
-  const incrementButtonCLick = () => {
-    dispatch(incrementAction(1));
-  };
+  // const incrementButtonCLick = () => {
+  //   dispatch(incrementAction(1));
+  // };
 
-  const decrementButtonCLick = () => {
-    dispatch(decrementAction(1));
-  };
+  // const decrementButtonCLick = () => {
+  //   dispatch(decrementAction(1));
+  // };
 
-  const multiplicationButtonCLick = () => {
-    dispatch(multiplicationAction(3));
-  };
+  // const multiplicationButtonCLick = () => {
+  //   dispatch(multiplicationAction(3));
+  // };
 
   return (
     <header className="app__header">
